@@ -19,6 +19,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('ui', [uiController::class, 'index']);
+Route::get('contact', [uiController::class, 'contact']);
+
+
+
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
