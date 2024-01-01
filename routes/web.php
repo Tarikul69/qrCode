@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ui\uiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+//Frontend Route
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('ui', [uiController::class, 'index']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
