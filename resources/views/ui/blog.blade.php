@@ -51,27 +51,25 @@
         <ul>
           <li><a class="" href="ui">Home</a></li>
           <li><a href="features.html">Features</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a class="active" href="blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
+          <li><a href="blog">Blog</a></li>
+          <li><a class="active" href="contact">Contact Us</a></li>
+          <li class="dropdown"><li>
+            @if (Route::has('login'))
+                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+                    @auth
+                    <li><a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a></li>
+                     @else
+                        <li><a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a></li>
+
+                        @if (Route::has('register'))
+                           <li><a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a></li>
+                        @endif
+                    @endauth
+                </div>
+            @endif
           </li>
-          <li><a href="contact">Contact Us</a></li>
-        </ul>
+          </li>
+         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
