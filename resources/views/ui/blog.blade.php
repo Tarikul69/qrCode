@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Contact</title>
+  <title>Blog - SoftLand Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -52,7 +52,7 @@
           <li><a class="" href="ui">Home</a></li>
           <li><a href="features.html">Features</a></li>
           <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog">Blog</a></li>
+          <li><a class="active" href="blog">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -70,7 +70,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="active" href="contact">Contact Us</a></li>
+          <li><a href="contact">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -80,6 +80,7 @@
 
   <main id="main">
 
+    <!-- ======= Blog Section ======= -->
     <section class="hero-section inner-page">
       <div class="wave">
 
@@ -98,7 +99,7 @@
           <div class="col-12">
             <div class="row justify-content-center">
               <div class="col-md-7 text-center hero-text">
-                <h1 data-aos="fade-up" data-aos-delay="">Get in touch</h1>
+                <h1 data-aos="fade-up" data-aos-delay="">Blog Posts</h1>
                 <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
@@ -110,171 +111,100 @@
 
     <section class="section">
       <div class="container">
-        <div class="row mb-5 align-items-end">
-          <div class="col-md-6" data-aos="fade-up">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
 
-            <h2>Contact Form</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore.</p>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_4.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="post-entry">
+              <a href="blog-single.html" class="d-block mb-4">
+                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-text">
+                <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
+                <h3><a href="#">Chrome now alerts you when someone steals your password</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                <p><a href="#" class="readmore">Read more</a></p>
+              </div>
+            </div>
           </div>
 
         </div>
 
         <div class="row">
-          <div class="col-md-4 ms-auto order-2" data-aos="fade-up">
-            <ul class="list-unstyled">
-              <li class="mb-3">
-                <strong class="d-block mb-1">Address</strong>
-                <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Phone</strong>
-                <span>+1 232 3235 324</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Email</strong>
-                <span>youremail@domain.com</span>
-              </li>
-            </ul>
+          <div class="col-12 text-center">
+            <span class="p-3 active text-primary">1</span>
+            <a href="#" class="p-3">2</a>
+            <a href="#" class="p-3">3</a>
+            <a href="#" class="p-3">4</a>
           </div>
-
-          <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label for="name">Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-                <div class="col-md-12 form-group mt-3">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" required>
-                </div>
-                <div class="col-md-12 form-group mt-3">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" required></textarea>
-                </div>
-
-                <div class="col-md-12 mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-
-                <div class="col-md-6 form-group">
-                  <input type="submit" class="btn btn-primary d-block w-100" value="Send Message">
-                </div>
-              </div>
-
-            </form>
-          </div>
-
         </div>
       </div>
+
     </section>
-
-    <!-- ======= Testimonials Section ======= -->
-    <section class="section border-top border-bottom">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-4">
-            <h2 class="section-heading">Review From Our Users</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-md-7">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>Excellent App!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Jean Doe</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>This App is easy to use!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Johan Smith</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>Awesome functionality!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Jean Thunberg</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Testimonials Section -->
 
     <!-- ======= CTA Section ======= -->
     <section class="section cta-section">
@@ -315,7 +245,7 @@
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="#">Contact</a></li>
               </ul>
             </div>
             <div class="col-md-4 mb-4 mb-md-0">

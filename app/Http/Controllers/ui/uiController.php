@@ -18,4 +18,10 @@ class uiController extends Controller
     {
         return view('ui.contact');
     }
+
+    //blog
+    public function blog()
+    {
+        return view('ui.blog');
+    }
 }
