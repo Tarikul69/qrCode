@@ -24,4 +24,10 @@ class uiController extends Controller
     {
         return view('ui.blog');
     }
+
+    //features
+    public function features()
+    {
+        return view('ui.features');
+    }
 }

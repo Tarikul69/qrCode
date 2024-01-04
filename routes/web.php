@@ -21,6 +21,8 @@ Route::get('/', function () {
 Route::get('ui', [uiController::class, 'index']);
 Route::get('contact', [uiController::class, 'contact']);
 Route::get('blog', [uiController::class, 'blog']);
+Route::get('features', [uiController::class, 'features']);
+
 
 
 

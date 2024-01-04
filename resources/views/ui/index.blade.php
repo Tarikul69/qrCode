@@ -50,7 +50,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="active " href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
+          <li><a href="features">Features</a></li>
           <li><a href="blog">Blog</a></li>
           <li><a href="contact">Contact Us</a></li>
           <li>
