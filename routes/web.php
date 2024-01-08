@@ -25,8 +25,11 @@ Route::get('features', [uiController::class, 'features']);
 
 
 
-
-
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('users/{id}', function ($id) {
+        
+    });
+});
 
 
 
