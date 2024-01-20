@@ -30,4 +30,10 @@ class uiController extends Controller
     {
         return view('ui.features');
     }
+
+    //login
+    public function login()
+    {
+        return view('usersAdmin.pages.samples.login');
+    }
 }

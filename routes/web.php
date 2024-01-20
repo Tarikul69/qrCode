@@ -1,5 +1,4 @@
 <?php
-
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ui\uiController;
 use Illuminate\Support\Facades\Route;
@@ -18,10 +17,14 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+//View
 Route::get('/', [uiController::class, 'index']);
 Route::get('contact', [uiController::class, 'contact']);
 Route::get('blog', [uiController::class, 'blog']);
 Route::get('features', [uiController::class, 'features']);
+Route::get('login', [AuthenticatedSessionController::class, 'create']);
+
 
 
 

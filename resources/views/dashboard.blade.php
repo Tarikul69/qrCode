@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Star Admin2 </title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/feather/feather.css">
+  <link rel="stylesheet" href="/usersAdminassets/assets/vendors/feather/feather.css">
   <link rel="stylesheet" href="usersAdminassets/assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="usersAdminassets/assets/vendors/ti-icons/css/themify-icons.css">
   <link rel="stylesheet" href="usersAdminassets/assets/vendors/typicons/typicons.css">
