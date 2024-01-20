@@ -1,24 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Star Admin2 </title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/feather/feather.css">
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/ti-icons/css/themify-icons.css">
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/typicons/typicons.css">
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/simple-line-icons/css/simple-line-icons.css">
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="assets/vendors/feather/feather.css">
+  <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="assets/vendors/typicons/typicons.css">
+  <link rel="stylesheet" href="assets/vendors/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="usersAdminassets/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-  <link rel="stylesheet" type="text/css" href="usersAdminassets/assets/js/select.dataTables.min.css">
+  <link rel="stylesheet" href="assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" type="text/css" href="assets/js/select.dataTables.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="usersAdminassets/assets/css/vertical-layout-light/style.css">
+  <link rel="stylesheet" href="assets/css/vertical-layout-light/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="usersAdminassets/assets/images/favicon.png" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" />
 </head>
 
 <body class="with-welcome-text">
@@ -53,10 +56,10 @@
     </div>
     <div>
       <a class="navbar-brand brand-logo" href="../index.html">
-        <img src="../usersAdminassets/assets/images/logo.svg" alt="logo" />
+        <img src="../assets/images/logo.svg" alt="logo" />
       </a>
       <a class="navbar-brand brand-logo-mini" href="../index.html">
-        <img src="../usersAdminassets/assets/images/logo-mini.svg" alt="logo" />
+        <img src="../assets/images/logo-mini.svg" alt="logo" />
       </a>
     </div>
   </div>
@@ -68,6 +71,41 @@
       </li>
     </ul>
     <ul class="navbar-nav ms-auto">
+      <li class="nav-item dropdown d-none d-lg-block">
+        <a class="nav-link dropdown-bordered dropdown-toggle dropdown-toggle-split" id="messageDropdown" href="#"
+          data-bs-toggle="dropdown" aria-expanded="false"> Select Category </a>
+        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0"
+          aria-labelledby="messageDropdown">
+          <a class="dropdown-item py-3">
+            <p class="mb-0 font-weight-medium float-left">Select category</p>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item preview-item">
+            <div class="preview-item-content flex-grow py-2">
+              <p class="preview-subject ellipsis font-weight-medium text-dark">Bootstrap Bundle </p>
+              <p class="fw-light small-text mb-0">This is a Bundle featuring 16 unique dashboards</p>
+            </div>
+          </a>
+          <a class="dropdown-item preview-item">
+            <div class="preview-item-content flex-grow py-2">
+              <p class="preview-subject ellipsis font-weight-medium text-dark">Angular Bundle</p>
+              <p class="fw-light small-text mb-0">Everything you’ll ever need for your Angular projects</p>
+            </div>
+          </a>
+          <a class="dropdown-item preview-item">
+            <div class="preview-item-content flex-grow py-2">
+              <p class="preview-subject ellipsis font-weight-medium text-dark">VUE Bundle</p>
+              <p class="fw-light small-text mb-0">Bundle of 6 Premium Vue Admin Dashboard</p>
+            </div>
+          </a>
+          <a class="dropdown-item preview-item">
+            <div class="preview-item-content flex-grow py-2">
+              <p class="preview-subject ellipsis font-weight-medium text-dark">React Bundle</p>
+              <p class="fw-light small-text mb-0">Bundle of 8 Premium React Admin Dashboard</p>
+            </div>
+          </a>
+        </div>
+      </li>
       <li class="nav-item d-none d-lg-block">
         <div id="datepicker-popup" class="input-group date datepicker navbar-date-picker">
           <span class="input-group-addon input-group-prepend border-right">
@@ -135,7 +173,7 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item preview-item">
             <div class="preview-thumbnail">
-              <img src="../usersAdminassets/assets/images/faces/face10.jpg" alt="image" class="img-sm profile-pic">
+              <img src="../assets/images/faces/face10.jpg" alt="image" class="img-sm profile-pic">
             </div>
             <div class="preview-item-content flex-grow py-2">
               <p class="preview-subject ellipsis font-weight-medium text-dark">Marian Garner </p>
@@ -144,7 +182,7 @@
           </a>
           <a class="dropdown-item preview-item">
             <div class="preview-thumbnail">
-              <img src="../usersAdminassets/assets/images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
+              <img src="../assets/images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
             </div>
             <div class="preview-item-content flex-grow py-2">
               <p class="preview-subject ellipsis font-weight-medium text-dark">David Grey </p>
@@ -153,7 +191,7 @@
           </a>
           <a class="dropdown-item preview-item">
             <div class="preview-thumbnail">
-              <img src="../usersAdminassets/assets/images/faces/face1.jpg" alt="image" class="img-sm profile-pic">
+              <img src="../assets/images/faces/face1.jpg" alt="image" class="img-sm profile-pic">
             </div>
             <div class="preview-item-content flex-grow py-2">
               <p class="preview-subject ellipsis font-weight-medium text-dark">Travis Jenkins </p>
@@ -164,10 +202,10 @@
       </li>
       <li class="nav-item dropdown d-none d-lg-block user-dropdown">
         <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-          <img class="img-xs rounded-circle" src="../usersAdminassets/assets/images/faces/face8.jpg" alt="Profile image"> </a>
+          <img class="img-xs rounded-circle" src="../assets/images/faces/face8.jpg" alt="Profile image"> </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
           <div class="dropdown-header text-center">
-            <img class="img-md rounded-circle" src="../usersAdminassets/assets/images/faces/face8.jpg" alt="Profile image">
+            <img class="img-md rounded-circle" src="../assets/images/faces/face8.jpg" alt="Profile image">
             <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
             <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
           </div>
@@ -179,7 +217,7 @@
             Activity</a>
           <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i>
             FAQ</a>
-          <a class="dropdown-item" href= "/"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
+          <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
         </div>
       </li>
     </ul>
@@ -312,7 +350,7 @@
       </div>
       <ul class="chat-list">
         <li class="list active">
-          <div class="profile"><img src="../usersAdminassets/assets/images/faces/face1.jpg" alt="image"><span class="online"></span>
+          <div class="profile"><img src="../assets/images/faces/face1.jpg" alt="image"><span class="online"></span>
           </div>
           <div class="info">
             <p>Thomas Douglas</p>
@@ -321,7 +359,7 @@
           <small class="text-muted my-auto">19 min</small>
         </li>
         <li class="list">
-          <div class="profile"><img src="../usersAdminassets/assets/images/faces/face2.jpg" alt="image"><span class="offline"></span>
+          <div class="profile"><img src="../assets/images/faces/face2.jpg" alt="image"><span class="offline"></span>
           </div>
           <div class="info">
             <div class="wrapper d-flex">
@@ -333,7 +371,7 @@
           <small class="text-muted my-auto">23 min</small>
         </li>
         <li class="list">
-          <div class="profile"><img src="../usersAdminassets/assets/images/faces/face3.jpg" alt="image"><span class="online"></span>
+          <div class="profile"><img src="../assets/images/faces/face3.jpg" alt="image"><span class="online"></span>
           </div>
           <div class="info">
             <p>Daniel Russell</p>
@@ -342,7 +380,7 @@
           <small class="text-muted my-auto">14 min</small>
         </li>
         <li class="list">
-          <div class="profile"><img src="../usersAdminassets/assets/images/faces/face4.jpg" alt="image"><span class="offline"></span>
+          <div class="profile"><img src="../assets/images/faces/face4.jpg" alt="image"><span class="offline"></span>
           </div>
           <div class="info">
             <p>James Richardson</p>
@@ -351,7 +389,7 @@
           <small class="text-muted my-auto">2 min</small>
         </li>
         <li class="list">
-          <div class="profile"><img src="../usersAdminassets/assets/images/faces/face5.jpg" alt="image"><span class="online"></span>
+          <div class="profile"><img src="../assets/images/faces/face5.jpg" alt="image"><span class="online"></span>
           </div>
           <div class="info">
             <p>Madeline Kennedy</p>
@@ -360,7 +398,7 @@
           <small class="text-muted my-auto">5 min</small>
         </li>
         <li class="list">
-          <div class="profile"><img src="../usersAdminassets/assets/images/faces/face6.jpg" alt="image"><span class="online"></span>
+          <div class="profile"><img src="../assets/images/faces/face6.jpg" alt="image"><span class="online"></span>
           </div>
           <div class="info">
             <p>Sarah Graves</p>
@@ -628,7 +666,7 @@
                                         </td>
                                         <td>
                                           <div class="d-flex ">
-                                            <img src="usersAdminassets/assets/images/faces/face1.jpg" alt="">
+                                            <img src="assets/images/faces/face1.jpg" alt="">
                                             <div>
                                               <h6>Brandon Washington</h6>
                                               <p>Head admin</p>
@@ -666,7 +704,7 @@
                                         </td>
                                         <td>
                                           <div class="d-flex">
-                                            <img src="usersAdminassets/assets/images/faces/face2.jpg" alt="">
+                                            <img src="assets/images/faces/face2.jpg" alt="">
                                             <div>
                                               <h6>Laura Brooks</h6>
                                               <p>Head admin</p>
@@ -704,7 +742,7 @@
                                         </td>
                                         <td>
                                           <div class="d-flex">
-                                            <img src="usersAdminassets/assets/images/faces/face3.jpg" alt="">
+                                            <img src="assets/images/faces/face3.jpg" alt="">
                                             <div>
                                               <h6>Wayne Murphy</h6>
                                               <p>Head admin</p>
@@ -742,7 +780,7 @@
                                         </td>
                                         <td>
                                           <div class="d-flex">
-                                            <img src="usersAdminassets/assets/images/faces/face4.jpg" alt="">
+                                            <img src="assets/images/faces/face4.jpg" alt="">
                                             <div>
                                               <h6>Matthew Bailey</h6>
                                               <p>Head admin</p>
@@ -780,7 +818,7 @@
                                         </td>
                                         <td>
                                           <div class="d-flex">
-                                            <img src="usersAdminassets/assets/images/faces/face5.jpg" alt="">
+                                            <img src="assets/images/faces/face5.jpg" alt="">
                                             <div>
                                               <h6>Katherine Butler</h6>
                                               <p>Head admin</p>
@@ -820,18 +858,132 @@
                             <div class="card card-rounded">
                               <div class="card-body card-rounded">
                                 <h4 class="card-title  card-title-dash">Recent Events</h4>
-                                 
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      Change in Directors
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                                 <div class="list align-items-center border-bottom py-2">
                                   <div class="wrapper w-100">
                                     <p class="mb-2 font-weight-medium">
                                       Other Events
                                     </p>
-                                     
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      Quarterly Report
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      Change in Directors
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="list align-items-center pt-3">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-0">
+                                      <a href="#" class="fw-bold text-primary">Show all <i
+                                          class="mdi mdi-arrow-right ms-2"></i></a>
+                                    </p>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                          </div> 
+                          </div>
+                          <div class="col-md-6 col-lg-6 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                  <h4 class="card-title card-title-dash">Activities</h4>
+                                  <p class="mb-0">20 finished, 5 remaining</p>
+                                </div>
+                                <ul class="bullet-line-list">
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
+                                      <p>Just now</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div><span class="text-light-green">Oliver Noah</span> assign you a task</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div><span class="text-light-green">Jack William</span> assign you a task</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div><span class="text-light-green">Leo Lucas</span> assign you a task</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div><span class="text-light-green">Thomas Henry</span> assign you a task</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="d-flex justify-content-between">
+                                      <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
+                                      <p>1h</p>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div class="list align-items-center pt-3">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-0">
+                                      <a href="#" class="fw-bold text-primary">Show all <i
+                                          class="mdi mdi-arrow-right ms-2"></i></a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <div class="col-lg-4 d-flex flex-column">
@@ -909,7 +1061,25 @@
                             </div>
                           </div>
                         </div>
-                         
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                      <h4 class="card-title card-title-dash">Type By Amount</h4>
+                                    </div>
+                                    <div>
+                                      <canvas class="my-auto" id="doughnutChart"></canvas>
+                                    </div>
+                                    <div id="doughnutChart-legend" class="mt-5 text-center"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                         <div class="row flex-grow">
                           <div class="col-12 grid-margin stretch-card">
                             <div class="card card-rounded">
@@ -956,7 +1126,7 @@
                                       <div
                                         class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                         <div class="d-flex">
-                                          <img class="img-sm rounded-10" src="usersAdminassets/assets/images/faces/face1.jpg"
+                                          <img class="img-sm rounded-10" src="assets/images/faces/face1.jpg"
                                             alt="profile">
                                           <div class="wrapper ms-3">
                                             <p class="ms-1 mb-1 fw-bold">Brandon Washington</p>
@@ -970,7 +1140,7 @@
                                       <div
                                         class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                         <div class="d-flex">
-                                          <img class="img-sm rounded-10" src="usersAdminassets/assets/images/faces/face2.jpg"
+                                          <img class="img-sm rounded-10" src="assets/images/faces/face2.jpg"
                                             alt="profile">
                                           <div class="wrapper ms-3">
                                             <p class="ms-1 mb-1 fw-bold">Wayne Murphy</p>
@@ -984,7 +1154,7 @@
                                       <div
                                         class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                         <div class="d-flex">
-                                          <img class="img-sm rounded-10" src="usersAdminassets/assets/images/faces/face3.jpg"
+                                          <img class="img-sm rounded-10" src="assets/images/faces/face3.jpg"
                                             alt="profile">
                                           <div class="wrapper ms-3">
                                             <p class="ms-1 mb-1 fw-bold">Katherine Butler</p>
@@ -998,7 +1168,7 @@
                                       <div
                                         class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                         <div class="d-flex">
-                                          <img class="img-sm rounded-10" src="usersAdminassets/assets/images/faces/face4.jpg"
+                                          <img class="img-sm rounded-10" src="assets/images/faces/face4.jpg"
                                             alt="profile">
                                           <div class="wrapper ms-3">
                                             <p class="ms-1 mb-1 fw-bold">Matthew Bailey</p>
@@ -1011,7 +1181,7 @@
                                       </div>
                                       <div class="wrapper d-flex align-items-center justify-content-between pt-2">
                                         <div class="d-flex">
-                                          <img class="img-sm rounded-10" src="usersAdminassets/assets/images/faces/face5.jpg"
+                                          <img class="img-sm rounded-10" src="assets/images/faces/face5.jpg"
                                             alt="profile">
                                           <div class="wrapper ms-3">
                                             <p class="ms-1 mb-1 fw-bold">Rafell John</p>
@@ -1055,26 +1225,26 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="usersAdminassets/assets/vendors/js/vendor.bundle.base.js"></script>
-  <script src="usersAdminassets/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+  <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+  <script src="assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
-  <script src="usersAdminassets/assets/vendors/chart.js/Chart.min.js"></script>
-  <script src="usersAdminassets/assets/vendors/progressbar.js/progressbar.min.js"></script>
+  <script src="assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="assets/vendors/progressbar.js/progressbar.min.js"></script>
   <!-- End plugin js for this page -->
   <!-- inject:js -->
-  <script src="usersAdminassets/assets/js/off-canvas.js"></script>
-  <script src="usersAdminassets/assets/js/hoverable-collapse.js"></script>
-  <script src="usersAdminassets/assets/js/template.js"></script>
-  <script src="usersAdminassets/assets/js/settings.js"></script>
-  <script src="usersAdminassets/assets/js/todolist.js"></script>
+  <script src="assets/js/off-canvas.js"></script>
+  <script src="assets/js/hoverable-collapse.js"></script>
+  <script src="assets/js/template.js"></script>
+  <script src="assets/js/settings.js"></script>
+  <script src="assets/js/todolist.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  <script src="usersAdminassets/assets/js/jquery.cookie.js" type="text/javascript"></script>
-  <script src="usersAdminassets/assets/js/dashboard.js"></script>
-  <script src="usersAdminassets/assets/js/proBanner.js"></script>
-  <!-- <script src="../../usersAdminassets/assets/js/Chart.roundedBarCharts.js"></script> -->
+  <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="assets/js/dashboard.js"></script>
+  <script src="assets/js/proBanner.js"></script>
+  <!-- <script src="../../assets/js/Chart.roundedBarCharts.js"></script> -->
   <!-- End custom js for this page-->
 </body>
 
- 
+</html>
